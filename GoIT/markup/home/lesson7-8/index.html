@@ -7,15 +7,18 @@
 <body>
   <header class="header">
     <div class="wrapper">
-      <h1><a href="#"><img src="" alt=""></a></h1>
-      <ul class="menu">
-        <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">About</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Products</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Lorem ipsum</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Dolor sit amet</a></li>
-      </ul>
+      <h1 class="logo"><a href="#"><img src="img/logo.png" alt=""></a></h1>
+      <div class="menu-wrapper">
+        <a href="#" class="current-page">Home</a>
+        <ul class="menu">
+          <li class="menu__item menu__item--current"><a href="#" class="menu__link">Home</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Products</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Lorem ipsum</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Dolor sit amet</a></li>
+        </ul>
+      </div>
       <div class="slider">
         <p class="slider__text1">Lorem Ipsum Dolor</p>
         <p class="slider__text2">It will make all of your dreams come</p>
@@ -25,6 +28,8 @@
           <li></li>
           <li></li>
         </ul>
+        <a href="#" class="slider__button slider__button--left"></a>
+        <a href="#" class="slider__button slider__button--right"></a>
       </div>
     </div>
   </header>
@@ -121,7 +126,17 @@
   </section><!-- prefooter -->
   <section class="footer">
     <div class="wrapper">
-
+      <ul class="menu menu--footer">
+        <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Products</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Lorem ipsum</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Dolor sit amet</a></li>
+      </ul>
+      <p class="copyrights">
+        Designed by <a href="#">Pingbull AS</a>
+      </p>
     </div>
   </section><!-- footer -->
 </body>
