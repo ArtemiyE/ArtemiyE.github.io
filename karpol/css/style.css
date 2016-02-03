@@ -44,23 +44,36 @@ header{
   position: relative;
   margin-top: 50px;
 }
-.current-page{
-  text-align: center;
-}
-.menu{
-  position: relative;
-  overflow: hidden;
-  display: none;
-  list-style: none;
-  text-align: center;
-  background-color: rgba(32, 146, 192, 0.8);
-  border-radius: 10px;
-}
 .menu-wrapper:hover .menu{
   display: block;
 }
 .menu-wrapper:hover .current-page__link{
   opacity: 0;
+}
+.current-page{
+  margin: 0 auto;
+  width: 250px;  
+  display: block;
+  text-align: center;
+}
+.menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: none;
+  overflow: hidden;
+  width: 250px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  background-color: rgba(32, 146, 192, 0.8);
+  border-radius: 10px;
+}
+.menu__item{
+  display: block;
+  padding: 0 10px;
 }
 .menu__item:hover{
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
@@ -195,16 +208,3 @@ footer{
   text-transform: uppercase;
   text-decoration: none;
 }
-
-/*@media (max-width: 480px){*/
-  .wrapper{
-    max-width: 480px;
-  }
-  .menu{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-  }
-/*}*/
