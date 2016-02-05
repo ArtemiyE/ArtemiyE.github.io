@@ -1,5 +1,24 @@
-/*@media (max-width: 480px){*/
+@media (max-width: 480px){
   .wrapper{
     max-width: 480px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px){
+  .wrapper{
+    max-width: 600px;
+  }
+  .top{
+    width: 48%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+  }
+  .top .top__text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 156px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
   }
 }
