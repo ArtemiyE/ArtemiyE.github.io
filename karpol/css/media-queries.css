@@ -8,7 +8,7 @@
     max-width: 600px;
   }
   .top{
-    width: 48%;
+    width: 49.55%;
     box-sizing: border-box;
     display: inline-block;
     text-align: center;
@@ -20,5 +20,24 @@
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
+  }
+  .menu--footer{
+    position: relative;
+    top: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background: none;
+  }
+  .menu--footer .menu__item{
+    padding: 0 2px;
+  }
+  .menu--footer .menu__item:hover{
+    background: rgba(240, 242, 244, 0.5);
+    border-radius: 10px;
+  }
+  .menu--footer .menu__link{
+    font-size: 12px;
+    color: #233568;
   }
 }
