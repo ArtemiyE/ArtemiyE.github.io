@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Karpol</title>
-  <link rel="shortcut icon" href="..//karpol/images/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
   <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link href="css/media-queries.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
   <header>
@@ -36,17 +38,34 @@
       </nav>
       <div class="slider">
         <div class="slider__item">
-          <p class="slider__text1">Карпатские луга</p>
-          <p class="slider__text2">Лучший травяной чай в мире</p>
+          <div class="slider__text">
+            <p class="slider__text1">Карпатские луга</p>
+            <p class="slider__text2">Лучший травяной чай в мире</p>
+          </div>
+          <img class="slider__image" src="images/teas/lipa_cr.jpg" alt="" />
         </div>
-        <ul class="slider__buttons">
+        <div class="slider__item">
+          <div class="slider__text">
+            <p class="slider__text1">Carpatian meadows</p>
+            <p class="slider__text2">best herbal tea in the world</p>
+          </div>
+          <img class="slider__image" src="images/teas/promo2_cr.jpg" alt="" />
+        </div>
+        <div class="slider__item">
+          <div class="slider__text">
+            <p class="slider__text1">Prés des Carpates</p>
+            <p class="slider__text2">Meilleur tisane dans le monde</p>
+          </div>
+          <img class="slider__image" src="images/teas/promo3_cr.jpg" alt="" />
+        </div>
+        <!-- <ul class="slider__buttons">
           <li class="current"></li>
           <li></li>
           <li></li>
           <li></li>
         </ul>
         <a href="#" class="slider__arrow slider__arrow--left"></a>
-        <a href="#" class="slider__arrow slider__arrow--right"></a>
+        <a href="#" class="slider__arrow slider__arrow--right"></a> -->
       </div>
     </div>
   </header>
@@ -157,6 +176,23 @@
         </p>
     </div>
   </footer>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+      $('.slider').slick({
+        // autoplay: true,
+        // autoplaySpeed: 3000,
+        // adaptiveHeight: true,
+        dots: true,
+        // fade: true,
+        // speed: 500
+      });
+    });
+  </script>
 
 </body>
 </html>
