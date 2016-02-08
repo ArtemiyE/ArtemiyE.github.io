@@ -32,6 +32,7 @@ header{
 .contacts{
   padding: 46px 5px 0 0;
   text-align: right;
+  list-style: none;
 }
 .contacts a{
   font-size: 17px;
