@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+
   <title>Karpol</title>
+
   <link rel="shortcut icon" href="images/favicon.png" type="image/png">
   <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link href="css/media-queries.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -->
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
   <header>
@@ -69,6 +76,11 @@
       </div>
     </div>
   </header>
+
+  <!-- scroll-up button -->
+  <div class="scroll-up">
+    <a class="scroll-up__link" href="#"></a>
+  </div>
 
   <section class="top-section">
     <div class="wrapper">
@@ -177,22 +189,8 @@
     </div>
   </footer>
 
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
 
-  <script type="text/javascript">
-      $(document).ready(function(){
-      $('.slider').slick({
-        autoplay: true,
-        // autoplaySpeed: 3000,
-        // adaptiveHeight: true,
-        dots: true,
-        fade: true,
-        speed: 500
-      });
-    });
-  </script>
+
 
 </body>
 </html>
