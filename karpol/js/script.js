@@ -15,18 +15,10 @@ $(function(){
 $(document).ready(function(){
   $('.slider').slick({
     autoplay: true,
-    autoplaySpeed: 3000,
-<<<<<<< 4e70577e0b198c5d6d6143852c8d6ecf8881ba30
+    // autoplaySpeed: 3000,
     // adaptiveHeight: true,
     dots: true,
-    // fade: true,
-    // speed: 500
-  }); });
-=======
     fade: true,
-    speed: 300,
-    dots: true
-
+    speed: 500
   });
 });
->>>>>>> слайдер поломался, кнопка вверх работает
