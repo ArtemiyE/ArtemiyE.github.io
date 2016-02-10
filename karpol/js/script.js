@@ -24,7 +24,8 @@ $(document).ready(function(){
   }); });
 =======
     fade: true,
-    speed: 300
+    speed: 300,
+    dots: true
 
   });
 });
