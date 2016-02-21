@@ -1,4 +1,17 @@
-$(function(){
+$(document).ready(function(){
+  // Dropdown toggle
+  $('.dropdown__toggle').click(function() {
+    $(this).next('.menu').toggle();
+  });
+  $(document).click(function(e) {
+    var target = e.target;
+    if (!$(target).is('.dropdown__toggle') && !$(target).parents().is('.dropdown__toggle')) {
+      $('.menu').hide();
+    }
+  });
+});
+
+$(document).ready(function(){
   $.scrollUp({
    scrollName: 'scrollUp', // Element ID
    scrollImg: true,
