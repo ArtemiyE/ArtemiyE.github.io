@@ -2,6 +2,15 @@
   .wrapper{
     max-width: 480px;
   }
+  .logo{
+    width: 68%;
+  }
+  .search{
+    width: 70%;
+  }
+  .basket{
+    width: 30%;
+  }
   .slider__text{
     top: 7%;
     left: 2%;

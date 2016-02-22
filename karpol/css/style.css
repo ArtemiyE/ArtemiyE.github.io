@@ -12,15 +12,20 @@
 }
 /*HEADER*/
 header{
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   background: url(../images/header-bg.jpg) 0% 30% no-repeat;
   background-size: cover;
 }
+.header-block{
+  position: relative;
+  overflow: hidden;
+}
 .logo{
   display: block;
-  padding: 50px 5px 0px;
+  padding: 25px 5px 0px;
   width: 205px;
   float: left;
+  box-sizing: border-box;
 }
 .logo-image{
   display: block;
@@ -29,9 +34,23 @@ header{
   width: 205px;
   height: 69px;
 }
+.search{
+  float: left;
+  padding: 15px 5px 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.basket{
+  float: left;
+  padding: 15px 5px 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.basket a{
+  display: block;
+}
 .contacts{
-  padding: 46px 5px 0 0;
-  text-align: right;
+  padding: 22px 5px 0 0;
   list-style: none;
 }
 .contacts a{
@@ -47,7 +66,7 @@ header{
 }
 .menu-wrapper{
   position: relative;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .dropdown__toggle{
   display: block;
@@ -88,7 +107,7 @@ header{
 /*SLIDER*/
 .slider{
   position: relative;
-  margin: 70px auto 0;
+  margin: 45px auto 0;
   width: 80%;
 
 }
