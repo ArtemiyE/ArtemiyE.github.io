@@ -2,14 +2,19 @@
   .wrapper{
     max-width: 480px;
   }
+  .header-block{
+    max-width: 400px;
+    margin: 0 auto;
+  }
   .logo{
     width: 68%;
   }
   .search{
-    width: 70%;
+    width: 65%;
   }
   .basket{
-    width: 30%;
+    width: 23%;
+    text-align: right;
   }
   .slider__text{
     top: 7%;
