@@ -13,7 +13,10 @@
     width: 65%;
   }
   .basket{
-    width: 23%;
+    width: 25%;
+    text-align: right;
+  }
+  .contacts{
     text-align: right;
   }
   .slider__text{
