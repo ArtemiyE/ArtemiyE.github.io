@@ -24,7 +24,6 @@ header{
   display: block;
   padding: 25px 5px 0px;
   width: 205px;
-  float: left;
   box-sizing: border-box;
 }
 .logo-image{
@@ -35,7 +34,6 @@ header{
   height: 69px;
 }
 .search{
-  float: left;
   margin: 15px 5px 0;
   box-sizing: border-box;
   text-align: center;
@@ -53,7 +51,7 @@ input[type="image"]{
   vertical-align: middle;
 }
 .basket{
-  float: left;
+  /*float: left;*/
   padding: 15px 5px 0px;
   box-sizing: border-box;
 }
