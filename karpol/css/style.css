@@ -55,7 +55,7 @@ input[type="image"]{
   padding: 15px 5px 0px;
   box-sizing: border-box;
 }
-.basket a{
+.basket img{
   display: block;
 }
 .contacts{
@@ -81,6 +81,9 @@ input[type="image"]{
   display: block;
   width: 61px;
   margin: 0 auto;
+}
+.dropdown__toggle:hover{
+  cursor: pointer;
 }
 .menu{
   position: absolute;
@@ -248,6 +251,9 @@ footer{
   height: 200px;
   background: url(../images/footer-bg.jpg) 0% 30% no-repeat;
   background-size: cover;
+}
+.menu--footer{
+  display: none;
 }
 .copyrights{
   padding-top: 85px;

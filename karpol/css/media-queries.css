@@ -53,10 +53,6 @@
   .menu--footer .menu__item{
     padding: 0 2px;
   }
-  .menu--footer .menu__item:hover{
-    background: rgba(240, 242, 244, 0.5);
-    border-radius: 10px;
-  }
   .menu--footer .menu__link{
     font-size: 12px;
     color: #233568;
