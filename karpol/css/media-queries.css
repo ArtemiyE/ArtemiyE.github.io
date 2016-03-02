@@ -1,4 +1,4 @@
-@media (max-width: 480px){
+@media (max-width: 519px){
   .wrapper{
     max-width: 480px;
   }
@@ -23,6 +23,29 @@
     top: 7%;
     left: 2%;
   }
+}
+@media (min-width: 520px){
+  .search{
+    position: absolute;
+    top: 51px;
+    right: 60px;
+    width: 44%;
+  }
+  .basket{
+    position: absolute;
+    top: 47px;
+    right: 3px;
+  }
+  .contacts{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .contacts li{
+    display: inline-block;
+  }
+
+
 }
 @media (min-width: 481px) and (max-width: 768px){
   .wrapper{
