@@ -45,7 +45,6 @@ input[type="search"]{
   outline: none;
   border: none;
   width: 86%;
-  padding: 2px 2px;
 }
 input[type="image"]{
   vertical-align: middle;
