@@ -93,6 +93,10 @@
   .wrapper{
     max-width: 960px;
   }
+  .header-block{
+    max-width: 85%;
+    margin: 0 auto;
+  }
   .dropdown__toggle{
     display: none;
   }
