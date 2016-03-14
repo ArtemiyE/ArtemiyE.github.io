@@ -31,7 +31,7 @@ $(document).ready(function(){
     // autoplaySpeed: 3000,
     // adaptiveHeight: true,
     dots: true,
-    // fade: true,
-    // speed: 500,
+    fade: true,
+    speed: 500,
   });
 });
