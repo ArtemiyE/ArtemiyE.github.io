@@ -24,7 +24,6 @@ header{
   display: block;
   padding: 25px 5px 0px;
   width: 205px;
-  box-sizing: border-box;
 }
 .logo-image{
   display: block;
@@ -72,7 +71,7 @@ input[type="image"]{
   text-decoration: none;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
-.contacts a:hover{
+.header-block .contacts a:hover{
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
 }
 .menu-wrapper{
@@ -258,7 +257,9 @@ footer{
   display: none;
 }
 .copyrights{
-  padding-top: 85px;
+  padding-top: 30px;
+}
+.copyrights__text{
   text-align: center;
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
   font-size: 15px;
