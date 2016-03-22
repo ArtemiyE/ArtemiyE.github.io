@@ -250,7 +250,8 @@ position: relative;
 /*FOOTER*/
 footer{
   height: 200px;
-  background: url(../images/footer-bg.jpg) 0% 30% no-repeat;
+  /*background: url(../images/footer-bg.jpg) 0% 30% no-repeat;*/
+  background: rgba(0, 0, 0, 0.8);
   background-size: cover;
 }
 .menu--footer{
@@ -261,12 +262,14 @@ footer{
 }
 .copyrights__text{
   text-align: center;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
   font-size: 15px;
+  /*text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);*/
+  color: #2092c0;
 }
 .copyrights__link{
   font-weight: bold;
-  color: #233568;
+  /*color: #233568;*/
+  color: rgba(0, 255, 0, 0.6);
   text-transform: uppercase;
   text-decoration: none;
 }
