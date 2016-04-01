@@ -249,16 +249,116 @@ position: relative;
 }
 /*FOOTER*/
 footer{
-  height: 200px;
+  height: auto;
   /*background: url(../images/footer-bg.jpg) 0% 30% no-repeat;*/
   background: rgba(0, 0, 0, 0.8);
   background-size: cover;
 }
-.menu--footer{
-  display: none;
+footer .wrapper{
+  overflow: hidden;
+}
+footer h4{
+  /*text-align: center;*/
+  /*color: #233568;*/
+  color: #2092c0;
+  /*text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);*/
+}
+.subscribe{
+  padding: 25px 20px 0;
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+}
+.subscribe__form{
+  display: block;
+  width: 80%;
+  /*margin: 0px auto;*/
+  padding: 10px 0 0;
+}
+.subscribe__name, .subscribe__email{
+  width: 98%;
+}
+.subscribe .logo{
+  /*margin: 0 auto;*/
+}
+.nav-footer{
+  padding: 25px 20px 0px;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+}
+.menu--footer .menu__link, .quick-links__list .quick-links__link, .contacts--footer .phone{
+  /*font-weight: bold;*/
+  font-weight: normal;
+  /*color: white;*/
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  text-transform: none;
+}
+.menu--footer a:hover, .quick-links__list a:hover, .contacts--footer a:hover{
+  /*box-shadow: 0px 0px 25px rgba(255, 255, 255, 1) inset;*/
+}
+.quick-links{
+  width: 25%;
+  padding: 25px 20px 0px;
+  float: left;
+  box-sizing: border-box;
+}
+.quick-links__list, .contacts--footer, .social__menu{
+  list-style: none;
+  /*text-align: center;*/
+}
+footer .contacts{
+  position: relative;
+  width: 20%;
+  float: left;
+  padding: 25px 20px 0px;
+  box-sizing: border-box;
+}
+.social{
+  position: relative;
+  width: 20%;
+  float: left;
+  padding: 15px 0px 0px;
+  box-sizing: border-box;
+}
+.social__menu li{
+  float: left;
+  padding: 2px;
+}
+.social__menu a{
+  display: block;
+  height: 44px;
+  width: 44px;
+  background: url(../images/social_icon.png) 0 0 no-repeat;
+}
+.social__menu .vk{
+  background-position: -45px 0;
+}
+.social__menu .google-plus{
+  background-position: -90px 0;
+}
+.social__menu .instagram{
+  background-position: -135px 0;
+}
+.pay-card{
+  position: relative;
+  width: 20%;
+  float: left;
+  padding: 15px 0px 0px;
+  box-sizing: border-box;
+}
+.pay-card a{
+  display: block;
+  height: 80px;
+  background: url(../images/pay-card.png) no-repeat;
+  background-size: contain;
 }
 .copyrights{
-  padding-top: 30px;
+  padding: 30px 0px 20px;
 }
 .copyrights__text{
   text-align: center;
