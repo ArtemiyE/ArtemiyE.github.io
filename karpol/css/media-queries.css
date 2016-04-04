@@ -80,6 +80,27 @@
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
   }
+  /*FOOTER*/
+  .subscribe{
+    width: 42%;
+  }
+  .nav-footer{
+    width: 22%;
+  }
+  .quick-links{
+    width: 36%;
+  }
+  footer .contacts{
+    width: 25%;
+  }
+  .social{
+    width: 40%;
+    padding-top: 25px;
+  }
+  .pay-card{
+    width: 35%;
+    padding-top: 25px;
+  }
 }
 @media (min-width: 769px){
   .wrapper{
