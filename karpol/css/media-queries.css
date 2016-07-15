@@ -9,11 +9,12 @@
   }
   .search{
     width: 66%;
+    margin: 20px 5px 10px;
   }
   .basket{
     position: absolute;
     right: 0;
-    top: 90px;
+    top: 85px;
   }
   .contacts{
     position: absolute;
@@ -34,8 +35,8 @@
   }
   .basket{
     position: absolute;
-    top: 47px;
-    right: 3px;
+    top: 31px;
+    right: 0px;
   }
   .contacts{
     position: absolute;
