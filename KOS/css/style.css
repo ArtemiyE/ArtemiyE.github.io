@@ -1,0 +1,29 @@
+/*GLOBAL*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'source_code_prolight', Tahoma, Arial, sans-serif;
+}
+@font-face {
+    font-family: 'source_code_prolight';
+    src: url('../fonts/sourcecodepro-light-webfont.eot');
+    src: url('../fonts/sourcecodepro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcecodepro-light-webfont.woff2') format('woff2'),
+         url('../fonts/sourcecodepro-light-webfont.woff') format('woff'),
+         url('../fonts/sourcecodepro-light-webfont.ttf') format('truetype'),
+         url('../fonts/sourcecodepro-light-webfont.svg#source_code_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.wrapper{
+  min-width: 320px;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+/*SLIDER*/
+.slider__item img{
+  width: 100%;
+}
