@@ -26,6 +26,7 @@ a{
   text-decoration: none;
   color: #AEB1BA;
   text-transform: uppercase;
+  /*background-color: #646A7A;*/
 }
 li{
   list-style: none;
@@ -33,11 +34,54 @@ li{
 /*HEADER*/
 header, ul.menu{
   display: flex;
+  align-items: baseline;
 }
 header{
+  margin: 15px 0 0 10px;
   justify-content: space-between;
 }
 .logo{
   font-size: 28px;
   font-weight: bold;
+}
+ul.menu{
+  justify-content: space-around;
+}
+.menu-item{
+  margin: 0 10px;
+}
+.item__gallery:hover .sub-menu{
+  display: block;
+}
+.sub-menu{
+  display: none;
+  position: absolute;
+}
+/*FOOTER*/
+footer{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+}
+.social-link{
+  display: flex;
+  justify-content: center;
+}
+.social-link a{
+  margin: 10px;
+  width: 32px;
+  height: 32px;
+}
+.facebook{
+  background: url(../images/facebook.png);
+}
+.flickr{
+  background: url(../images/flickr.png);
+}
+.mail{
+  background: url(../images/email.png);
+}
+.share{
+  background: url(../images/share.png);
 }
