@@ -75,7 +75,8 @@ footer{
   height: 32px;
 }
 .facebook{
-  background: url(../images/facebook.png);
+  background: url(../images/facebook.svg);
+  background-size: 32px;
 }
 .flickr{
   background: url(../images/flickr.png);
