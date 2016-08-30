@@ -2,7 +2,9 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'source_code_prolight', Tahoma, Arial, sans-serif;
+  font-family: 'Poiret One', 'source_code_prolight', Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 @font-face {
     font-family: 'source_code_prolight';
@@ -17,7 +19,6 @@
 
 }
 .wrapper{
-  /*min-width: 320px;*/
   max-width: 960px;
   margin: 0 auto;
 }
@@ -25,6 +26,7 @@ a{
   text-decoration: none;
   color: #AEB1BA;
   text-transform: uppercase;
+  display: block;
   /*background-color: #646A7A;*/
 }
 li{
@@ -57,6 +59,9 @@ ul.menu{
   position: absolute;
   background-color: rgba( 48, 53, 66, 0.8);
   border-radius: 6px;
+}
+.sub-menu-item{
+  padding: 2px;
 }
 /*FOOTER*/
 footer{
