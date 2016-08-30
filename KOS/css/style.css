@@ -73,17 +73,17 @@ footer{
   margin: 10px;
   width: 32px;
   height: 32px;
+  background-size: 32px;
 }
 .facebook{
   background: url(../images/facebook.svg);
-  background-size: 32px;
 }
 .flickr{
-  background: url(../images/flickr.png);
+  background: url(../images/flickr.svg);
 }
 .mail{
-  background: url(../images/email.png);
+  background: url(../images/mail.svg);
 }
 .share{
-  background: url(../images/share.png);
+  background: url(../images/share.svg);
 }
