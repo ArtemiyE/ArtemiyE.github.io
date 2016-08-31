@@ -25,12 +25,13 @@
 a{
   text-decoration: none;
   color: #AEB1BA;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   display: block;
     /*background-color: #646A7A;*/
 }
 a:hover{
-  text-shadow: 2px 0px 7px rgba(255, 255, 255, 1);
+  /*text-shadow: 2px 0px 7px rgba(255, 255, 255, 1);*/
+  color: #ffffff;
 }
 li{
   list-style: none;
@@ -80,34 +81,37 @@ footer{
 }
 .social-link a{
   margin: 10px;
-  width: 32px;
-  height: 32px;
-  background-size: 32px;
+  width: 21px;
+  height: 21px;
+  /*background-size: 21px;*/
 }
-.facebook:hover .fb1{
-  fill: #ffffff;
-}
+/*.facebook:hover .fb1{
+  fill: #ffffff;#3b5998
+}*/
 .facebook:hover .fb0{
-  fill: #3b5998;
-}
-.flickr:hover .fl0{
   fill: #ffffff;
 }
-.flickr:hover .fl1_blue{
+/*.flickr:hover .fl0{
+  fill: #ffffff;
+}*/
+/*.flickr:hover .fl1_blue{
   fill: #0b65d3;
 }
 .flickr:hover .fl1_pink{
   fill: #ff0080;
-}
-.mail:hover .ma0{
+}*/
+.flickr:hover .fl1{
   fill: #ffffff;
 }
+/*.mail:hover .ma0{
+  fill: #ffffff;#de5246
+}*/
 .mail:hover .ma1{
-  fill: #de5246;
-}
-.share:hover .sh0{
   fill: #ffffff;
 }
+/*.share:hover .sh0{
+  fill: #ffffff;#0b65d3
+}*/
 .share:hover .sh1{
-  fill: #0b65d3;
+  fill: #ffffff;
 }
