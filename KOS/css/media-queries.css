@@ -16,5 +16,9 @@
     position: fixed;
     right: 25px;
   }
+  .sub-menu{
+    top: 20%;
+    right: 98%;
+  }
 
 }

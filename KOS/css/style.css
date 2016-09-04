@@ -69,7 +69,6 @@ header{
   position: absolute;
   background-color: rgba( 48, 53, 66, 0.8);
   border-radius: 6px;
-  z-index: 1;
 }
 .sub-menu-item{
   padding: 2px;
@@ -80,6 +79,7 @@ footer{
   left: 0;
   right: 0;
   bottom: 15px;
+  z-index: -1;
 }
 .social-link{
   display: flex;
