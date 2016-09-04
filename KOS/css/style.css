@@ -25,35 +25,41 @@
 a{
   text-decoration: none;
   color: #AEB1BA;
-  /*text-transform: uppercase;*/
   display: block;
-    /*background-color: #646A7A;*/
 }
 a:hover{
-  /*text-shadow: 2px 0px 7px rgba(255, 255, 255, 1);*/
   color: #ffffff;
 }
 li{
   list-style: none;
 }
 /*HEADER*/
-header, ul.menu{
+header{
   display: flex;
   flex-wrap: wrap;
-}
-header{
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin: 15px 0 0 10px;
 }
 .logo{
   font-size: 28px;
   font-weight: bold;
 }
-ul.menu{
+.navigation{
+  margin-right: 15px;
+}
+.menu-button{
+  width: 32px;
+  height: 32px;
+}
+.menu-button:hover .mb0{
+  fill: #ffffff;
+}
+.menu{
+  display: none;
 }
 .menu-item{
-  margin: 0 10px;
+  margin: 0 7px;
 }
 .item__gallery:hover .sub-menu{
   display: block;
@@ -83,35 +89,16 @@ footer{
   margin: 10px;
   width: 21px;
   height: 21px;
-  /*background-size: 21px;*/
 }
-/*.facebook:hover .fb1{
-  fill: #ffffff;#3b5998
-}*/
 .facebook:hover .fb0{
   fill: #ffffff;
 }
-/*.flickr:hover .fl0{
-  fill: #ffffff;
-}*/
-/*.flickr:hover .fl1_blue{
-  fill: #0b65d3;
-}
-.flickr:hover .fl1_pink{
-  fill: #ff0080;
-}*/
 .flickr:hover .fl1{
   fill: #ffffff;
 }
-/*.mail:hover .ma0{
-  fill: #ffffff;#de5246
-}*/
 .mail:hover .ma1{
   fill: #ffffff;
 }
-/*.share:hover .sh0{
-  fill: #ffffff;#0b65d3
-}*/
 .share:hover .sh1{
   fill: #ffffff;
 }
