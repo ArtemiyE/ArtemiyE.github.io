@@ -60,7 +60,7 @@ header{
 	transition: all .3s ease .15s;
 }
 .menu-item{
-  margin: 0 7px;
+  padding: 0 7px;
 }
 .item__gallery:hover .sub-menu{
   display: block;
