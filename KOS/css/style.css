@@ -104,3 +104,54 @@ footer{
 .share:hover .sh1{
   fill: #ffffff;
 }
+form{
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  bottom: 50px;
+  width: 250px;
+  color: #AEB1BA;
+  background-color: rgba( 48, 53, 66, 0.8);
+  border-radius: 6px;
+  padding: 10px;
+}
+.form-close{
+  align-self: flex-end;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: url(../images/cross.svg) no-repeat, #dddddd;
+  background-size: 11px;
+}
+.form-close:active{
+  background-position: right bottom;
+}
+label{
+  padding-bottom: 3px;
+}
+textarea, input{
+  resize: none;
+  font-family: tahoma;
+  font-weight: 300;
+}
+.submit-button{
+  margin: 10px 0 0;
+  width: 40px;
+  height: 30px;
+  align-self: flex-end;
+  font-size: x-small;
+  border-radius: 4px;
+  cursor: pointer;
+  background: url(../images/send.svg) no-repeat, #dddddd;
+  background-size: 35px 25px;
+}
+.submit-button:active{
+  background-position: right bottom;
+}
+.submit-button, textarea, input, .form-close:focus{
+  outline-color: transparent;
+}
