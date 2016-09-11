@@ -19,7 +19,11 @@
 
 }
 .wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: 960px;
+  height: 100vh;
   margin: 0 auto;
 }
 a{
@@ -36,17 +40,14 @@ li{
 /*HEADER*/
 header{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  margin: 15px 0 0 10px;
+  margin: 15px 10px 0;
 }
 .logo{
   font-size: 28px;
   font-weight: bold;
 }
 .navigation{
-  margin-right: 15px;
 }
 .menu-button{
   width: 32px;
@@ -77,11 +78,7 @@ header{
 }
 /*FOOTER*/
 footer{
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 15px;
-  z-index: -1;
+  align-self: center;
 }
 .social-link{
   display: flex;
@@ -107,7 +104,7 @@ footer{
 form{
   display: none;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   bottom: 50px;
   width: 250px;
   color: #AEB1BA;
