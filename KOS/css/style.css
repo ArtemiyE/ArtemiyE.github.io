@@ -89,12 +89,10 @@ footer{
   margin: 10px;
   width: 21px;
   height: 21px;
-  order: 1;
 }
 .wrapper-form{
   display: flex;
   justify-content: center;
-  order: 0;
   width: 100%;
 }
 .facebook:hover .fb0{
