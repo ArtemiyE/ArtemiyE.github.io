@@ -22,45 +22,15 @@ svg{
 .main h3, p{
   text-align: center;
 }
-.tree{
+.tree, .phone1, .gifts, .rocket{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   width: 35%;
 }
-.phone1{
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  width: 35%;
-}
-.cool{
+.cool, .face, .phone2{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   width: 22%;
-}
-.face{
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  width: 22%;
-}
-.phone2{
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  width: 22%;
-}
-.gifts{
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  width: 35%;
-}
-.rocket{
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  width: 35%;
 }
