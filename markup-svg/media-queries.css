@@ -42,13 +42,13 @@
   }
 }
 @media (min-width: 1025px) {
-    .main{
-    max-width: 1320px;
-    height: 600px;
-    margin: auto;
-    flex-flow: column wrap!important;
-    justify-content: space-between!important;
-    align-items: center!important;
+  .main{
+  max-width: 1320px;
+  height: 600px;
+  margin: auto;
+  flex-flow: column wrap!important;
+  justify-content: space-between!important;
+  align-items: center!important;
   }
   .cool, .tree, .gifts, .face, .phone1, .rocket, .phone2{
     width: 19%;
@@ -81,5 +81,17 @@
   .face svg{
     width: 100%;
     height: 265px;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+/* IE10+ CSS styles go here */
+  .cool, .tree, .gifts, .face, .phone1, .rocket, .phone2{
+    display: block!important;
+    text-align: center!important;
+  }
+  .cool, .face, .phone2{
+    position: relative!important;
+    top: 30%!important;
+    min-height: 100%!important;
   }
 }

@@ -21,13 +21,15 @@ svg{
 .main h3, p{
   text-align: center;
   font-size: small;
+  width: 100%;
 }
 h3{
   padding-bottom: 5px;
 }
 .cool, .tree, .gifts, .face, .phone1, .rocket, .phone2{
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex: 0 1 45%;
