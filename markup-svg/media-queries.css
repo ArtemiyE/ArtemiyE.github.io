@@ -83,15 +83,27 @@
     height: 265px;
   }
 }
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+
 /* IE10+ CSS styles go here */
+
+@media (min-width: 1025px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
   .cool, .tree, .gifts, .face, .phone1, .rocket, .phone2{
     display: block!important;
     text-align: center!important;
   }
   .cool, .face, .phone2{
-    position: relative!important;
-    top: 30%!important;
     min-height: 100%!important;
+  }
+  .cool svg, .face svg, .phone2 svg{
+    margin-top: 70%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (-ms-high-contrast: none), (-ms-high-contrast: active){
+  .main{
+    flex-flow: row wrap!important;
+  }
+  .cool, .tree, .gifts, .face, .phone1, .rocket, .phone2{
+    display: block!important;
+    text-align: center!important;
   }
 }
