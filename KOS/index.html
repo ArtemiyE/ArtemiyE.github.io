@@ -6,6 +6,7 @@
 
   <title>KOS</title>
 
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
   <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="css/media-queries.css" media="screen" title="no title">
   <link rel="stylesheet" href="js/vegas/vegas.min.css">
@@ -13,7 +14,7 @@
 
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="js/vegas/vegas.min.js"></script>
-  <script src="js/share/share42.js" type="text/javascript"></script>
+  <script src="https://yastatic.net/share2/share.js"></script>
 
 </head>
 <body>
@@ -77,7 +78,7 @@
     <footer>
       <div class="social-link">
         <div class="wrapper-form">
-          <form class="" id=email-form action="#" method="post" name="mail">
+          <form class="email-form" id=email-form action="#" method="post" name="mail">
             <button class="form-close" onclick = "document.getElementById('email-form').style.display='none'" type="button" name="close" title="Закрыть"></button>
             <label for="name">Имя</label>
             <input type="text" id="name" required title="Как вас зовут?">
@@ -88,6 +89,9 @@
             <input class="submit-button" type="submit" title="Отправить" value="">
           </form>
         </div>
+
+        <div class="ya-share2" id=share-button data-services="facebook,vkontakte,odnoklassniki,twitter,gplus,blogger" data-size="s"></div>
+
         <a class="facebook" href="https://www.facebook.com/oleg.koshevoy" target="_blank" title=Facebook>
           <?xml version="1.0" encoding="utf-8"?>
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -150,7 +154,7 @@
             </g>
           </svg>
         </a>
-        <a class="share" href="#" target="_blank" title=Поделиться>
+        <a class="share" href="#" onclick ="document.getElementById('share-button').style.display='flex'; return false;" target="_blank" title=Поделиться>
           <?xml version="1.0" encoding="utf-8"?>
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -179,7 +183,6 @@
             </g>
           </svg>
         </a>
-        <div class="share42init"></div>
       </div>
     </footer>
   </div>

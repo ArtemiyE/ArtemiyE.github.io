@@ -154,3 +154,8 @@ textarea, input{
 .submit-button, textarea, input, .form-close:focus{
   outline-color: transparent;
 }
+.ya-share2{
+  display: none;
+  justify-content: center;
+  width: 100%;
+}
