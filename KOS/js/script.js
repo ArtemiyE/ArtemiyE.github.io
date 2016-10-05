@@ -39,7 +39,7 @@ $(function() {
         })
       : elem.slideUp();
     }
-    $("#mail-click,#form-close").on("click.show", openForm);
+    $("#mail-click, #form-close").on("click.show", openForm);
     elem.click(function(e) {
       e.stopPropagation();
     });
