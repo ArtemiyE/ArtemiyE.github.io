@@ -14,6 +14,7 @@
 
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="js/vegas/vegas.min.js"></script>
+  <script src="js/script.js"></script>
   <script src="https://yastatic.net/share2/share.js"></script>
 
 </head>
@@ -78,16 +79,18 @@
     <footer>
       <div class="social-link">
         <div class="wrapper-form">
-          <form class="email-form" id=email-form action="#" method="post" name="mail">
-            <button class="form-close" onclick = "document.getElementById('email-form').style.display='none'" type="button" name="close" title="Закрыть"></button>
-            <label for="name">Имя</label>
-            <input type="text" id="name" required title="Как вас зовут?">
-            <label for="email">Почта</label>
-            <input type="email" id="email" required title="Адрес вашей электронной почты.">
-            <label for="message">Сообщение</label>
-            <textarea id="message" cols="30" rows="10" required title="Напишите ваше сообщение."></textarea>
-            <input class="submit-button" type="submit" title="Отправить" value="">
-          </form>
+          <div class="container-form" id=container-form>
+            <form class="email-form" id=email-form action="#" method="post" name="mail">
+              <button class="form-close" id=form-close type="button" name="close" title="Закрыть"></button>
+              <label for="name">Имя</label>
+              <input type="text" id="name" required title="Как вас зовут?">
+              <label for="email">Почта</label>
+              <input type="email" id="email" required title="Адрес вашей электронной почты.">
+              <label for="message">Сообщение</label>
+              <textarea id="message" cols="30" rows="10" required title="Напишите ваше сообщение."></textarea>
+              <input class="submit-button" type="submit" title="Отправить" value="">
+            </form>
+          </div>
         </div>
 
         <div class="ya-share2" id=share-button data-services="facebook,vkontakte,odnoklassniki,twitter,gplus,blogger" data-size="s"></div>
@@ -131,7 +134,7 @@
             	s-20.7-30.4-20.7-50s6.9-36.2,20.7-50s30.4-20.7,50-20.7S198.2,192.2,212,206z"/>
           </svg>
         </a>
-        <a class="mail" href="contact.html" onclick = "document.getElementById('email-form').style.display='flex'; return false;" target="_blank" title=Написать>
+        <a class="mail" id=mail-click href="contact.html" onclick="return false" target="_blank" title=Написать>
           <?xml version="1.0" encoding="utf-8"?>
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -154,7 +157,7 @@
             </g>
           </svg>
         </a>
-        <a class="share" href="#" onclick ="document.getElementById('share-button').style.display='flex'; return false;" target="_blank" title=Поделиться>
+        <a class="share" id=share-click href="#" title=Поделиться>
           <?xml version="1.0" encoding="utf-8"?>
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -186,21 +189,5 @@
       </div>
     </footer>
   </div>
-
-  <script>
-  $(function() {
-    $('body').vegas({
-      timer: false,
-      delay: 14000,
-      transitionDuration: 3000,
-        slides: [
-            { src: 'images/img1.jpg' },
-            { src: 'images/img2.jpg' },
-            { src: 'images/img3.jpg' }
-        ]
-    });
-  });
-  </script>
-
 </body>
 </html>

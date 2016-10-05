@@ -107,8 +107,11 @@ footer{
 .share:hover .sh1{
   fill: #ffffff;
 }
-form{
+.container-form{
   display: none;
+}
+form{
+  display: flex;
   flex-direction: column;
   width: 250px;
   color: #AEB1BA;
@@ -156,6 +159,9 @@ textarea, input{
 }
 .ya-share2{
   display: none;
-  justify-content: center;
   width: 100%;
+}
+.ya-share2__container{
+  display: flex;
+  justify-content: center;
 }
