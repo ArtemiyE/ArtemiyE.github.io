@@ -166,3 +166,6 @@ textarea, input{
   display: flex;
   justify-content: center;
 }
+.ya-share2__badge{
+  background-color: #303542!important;
+}
