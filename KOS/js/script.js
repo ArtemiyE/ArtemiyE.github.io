@@ -1,16 +1,4 @@
-$(function() {
-  $('body').vegas({
-    timer: false,
-    delay: 14000,
-    transitionDuration: 3000,
-      slides: [
-          { src: 'images/img1.jpg' },
-          { src: 'images/img2.jpg' },
-          { src: 'images/img3.jpg' }
-      ]
-  });
-});
-// Кнопка поделиться в соцсетях
+// Блок кнопок поделиться в соцсетях
 $(function() {
   var elem = $("#share-button");
     function openShare() {
@@ -43,4 +31,17 @@ $(function() {
     elem.click(function(e) {
       e.stopPropagation();
     });
+});
+// Фон
+$(function() {
+  $('body').vegas({
+    timer: false,
+    delay: 14000,
+    transitionDuration: 3000,
+    slides: [
+      { src: 'images/img1.jpg' },
+      { src: 'images/img2.jpg' },
+      { src: 'images/img3.jpg' }
+    ]
+  });
 });
