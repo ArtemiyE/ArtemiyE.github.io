@@ -76,7 +76,16 @@
     </header>
     <section class="contact">
       <h3 class="contact__header">Напишите мне на rubypinkdevil@ukr.net или заполните форму ниже.</h3>
-
+      <form class="email-form" id=email-form action="#" method="post" name="mail">
+        <button class="form-close" id=form-close type="button" name="close" title="Закрыть"></button>
+        <label for="name">Имя</label>
+        <input type="text" id="name" required title="Как вас зовут?">
+        <label for="email">Почта</label>
+        <input type="email" id="email" required title="Адрес вашей электронной почты.">
+        <label for="message">Сообщение</label>
+        <textarea id="message" cols="30" rows="10" required title="Напишите ваше сообщение."></textarea>
+        <input class="submit-button" type="submit" title="Отправить" value="">
+      </form>
     </section>
     <footer>
       <div class="social-link">
