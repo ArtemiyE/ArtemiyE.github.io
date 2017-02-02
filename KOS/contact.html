@@ -75,9 +75,10 @@
       </div>
     </header>
     <section class="contact">
-      <h3 class="contact__header">Напишите мне на rubypinkdevil@ukr.net или заполните форму ниже.</h3>
+      <div class="contact__header">
+        <h3>Напишите мне на rubypinkdevil@ukr.net или заполните форму ниже.</h3>
+      </div>
       <form class="email-form" id=email-form action="#" method="post" name="mail">
-        <button class="form-close" id=form-close type="button" name="close" title="Закрыть"></button>
         <label for="name">Имя</label>
         <input type="text" id="name" required title="Как вас зовут?">
         <label for="email">Почта</label>
@@ -89,24 +90,6 @@
     </section>
     <footer>
       <div class="social-link">
-        <div class="wrapper-form">
-          <div class="container-form" id=container-form>
-            <form class="email-form" id=email-form action="#" method="post" name="mail">
-              <button class="form-close" id=form-close type="button" name="close" title="Закрыть"></button>
-              <label for="name">Имя</label>
-              <input type="text" id="name" required title="Как вас зовут?">
-              <label for="email">Почта</label>
-              <input type="email" id="email" required title="Адрес вашей электронной почты.">
-              <label for="message">Сообщение</label>
-              <textarea id="message" cols="30" rows="10" required title="Напишите ваше сообщение."></textarea>
-              <input class="submit-button" type="submit" title="Отправить" value="">
-            </form>
-          </div>
-        </div>
-        <div class="ya-share2" id=share-button
-          data-services="facebook,vkontakte,odnoklassniki,twitter,gplus,blogger"
-          data-size="m">
-        </div>
         <a class="facebook" href="https://www.facebook.com/oleg.koshevoy" target="_blank" title=Facebook>
           <?xml version="1.0" encoding="utf-8"?>
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -144,29 +127,6 @@
             	s-20.7-30.4-20.7-50s6.9-36.2,20.7-50s30.4-20.7,50-20.7S386.2,192.2,400,206z"/>
             <path class="fl1 fl1_blue" d="M212,206c13.8,13.8,20.7,30.4,20.7,50s-6.9,36.2-20.7,50s-30.4,20.7-50,20.7s-36.2-6.9-50-20.7
             	s-20.7-30.4-20.7-50s6.9-36.2,20.7-50s30.4-20.7,50-20.7S198.2,192.2,212,206z"/>
-          </svg>
-        </a>
-        <a class="mail" id=mail-click href="contact.html" onclick="return false" target="_blank" title=Написать>
-          <?xml version="1.0" encoding="utf-8"?>
-          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-            <style type="text/css">
-            	.ma0{fill:#303542;}
-            	.ma1{fill:#AEB1BA;}
-            </style>
-            <g>
-            	<g>
-            		<path class="ma0" d="M512,384c0,11.2-3.2,21.6-8.2,30.8L342.1,233.9L502,94c6.2,9.9,10,21.5,10,34V384L512,384z M256,266.7
-            			L478.5,72.1c-9.1-5-19.4-8.1-30.5-8.1H64c-11.1,0-21.4,3.1-30.5,8.1L256,266.7z M318,255l-51.5,45.1c-3,2.6-6.8,3.9-10.5,3.9
-            			c-3.8,0-7.5-1.3-10.5-3.9L194,255L30.2,438.2c9.8,6.2,21.3,9.8,33.7,9.8h384c12.4,0,23.9-3.7,33.7-9.8L318,255z M10,94
-            			c-6.2,9.9-10,21.5-10,34v256c0,11.2,3.1,21.6,8.2,30.8l161.6-180.9L10,94z"/>
-            	</g>
-            	<path class="ma1" d="M502,94L342.1,233.9l161.7,180.9c5-9.2,8.2-19.6,8.2-30.8v1.5c0,34.5-28,62.5-62.5,62.5h-1.6
-            		c12.4,0,23.9-3.7,33.7-9.8L318,255l-51.5,45.1c-3,2.6-6.8,3.9-10.5,3.9c-3.8,0-7.5-1.3-10.5-3.9L194,255L30.2,438.2
-            		c9.8,6.2,21.3,9.8,33.7,9.8h-1.4C28,448,0,420,0,385.5V384c0,11.2,3.1,21.6,8.2,30.8l161.6-180.9L10,94c-6.2,9.9-10,21.5-10,34
-            		v-1.5C0,92,28,64,62.5,64H64c-11.1,0-21.4,3.1-30.5,8.1L256,266.7L478.5,72.1c-9.1-5-19.4-8.1-30.5-8.1h1.5
-            		C484,64,512,92,512,126.5v1.5C512,115.5,508.2,103.9,502,94z"/>
-            </g>
           </svg>
         </a>
         <a class="share" id=share-click href="#" title=Поделиться>
