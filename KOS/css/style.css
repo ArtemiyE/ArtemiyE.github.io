@@ -174,3 +174,14 @@ textarea, input{
 .submit-button, textarea, input, .form-close:focus{
   outline-color: transparent;
 }
+
+/*CONTACT.HTML*/
+
+section.contact{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+section .contact__header{
+  margin: 30px;
+}
