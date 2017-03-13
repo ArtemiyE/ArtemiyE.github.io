@@ -186,3 +186,19 @@ section .contact__header{
   margin: 30px;
   text-align: center;
 }
+
+/*ABOUT.HTML*/
+
+section.about-author{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+img.about-author__foto{
+  align-self: flex-start;
+  width: 33%;
+  height: 100%;
+}
+h3.about-author__info{
+  width: 40%;
+}
